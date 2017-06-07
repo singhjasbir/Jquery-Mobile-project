@@ -1,0 +1,50 @@
+h1 ,h2{
+		color: #702E00;
+		text-shadow:1px 1px white;
+}
+h2{
+	text-shadow: 3px 4px 3px white;
+}
+
+.ui-icon-product:after
+{
+	background-image: url("../images/product.png");
+	background-size: 24px 24px;
+	 width:2em;
+    height:2em;
+}
+.ui-icon-customer:after{
+background-image: url("../images/customer.png");
+	background-size: 24px 24px;
+	 width:2em;
+    height:2em;
+}
+.ui-icon-home:after{
+background-image: url("../images/home.png");
+	background-size: 24px 24px;
+	 width:2em;
+    height:2em;
+}
+.ui-icon-invoice:after{
+background-image: url("../images/invoice.jpg");
+	background-size: 24px 24px;
+	 width:2em;
+    height:2em;
+}
+.ui-icon-contact:after{
+background-image: url("../images/contact.jpg");
+	background-size: 24px 24px;
+	 width:2em;
+    height:2em;
+}
+/*This is used to set the background white for odd items.*/
+li:nth-child(odd):not(.ui-li-divider), li:nth-child(odd):not(.ui-li-divider) a {
+    background:white;
+    text-shadow: none;
+}
+td, th {text-align: left; padding:5px; background:#F7FFD4;border:1px solid black;}
+#invoice .ui-content, #inv {
+	height:90%;
+	width:100%;
+}
+

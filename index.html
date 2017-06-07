@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Project</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+	<!--These are the links to connect with the CSS Files.. -->
+	<link rel="stylesheet" href="css/jquery.mobile.css" />
+	<link rel="stylesheet" href="css/taddu.css" />
+	
+	<!-- These are the links for the jquery files.. -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile.js"></script>
+	<script src="js/script.js"></script>
+	
+<style>
+img{
+width:70em;
+height:70em;
+}
+p#head{
+padding:0.2em;
+text-align:center;
+font-size:0.81em;
+font-family: Arial, Helvetica, sans-serif;
+}
+div#data1, div#data2,div#data3,div#data4,div#data5,
+div#data6,div#data7,div#data8,div#data9,div#data0{
+font-size:1em;
+}
+</style>
+</head>
+<body>
+<!--This is the begining of the home page -->
+<div data-role="page" id="home"  data-theme="a">
+	<header data-role="header">
+		<h1>SellMore Company Ltd.</h1>
+	</header>
+    <a href="#home"></a>
+	<section class="ui-content">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#products"  data-transition= "slidedown" class="ui-btn ui-icon-product ui-btn-icon-top">Products</a></li>
+        <li><a href="#customers" data-transition= "slidedown"  class="ui-btn ui-icon-customer ui-btn-icon-top">Customers</a></li>
+		 <li><a href="#invoices" data-transition= "slidedown"  class="ui-btn ui-icon-invoice ui-btn-icon-top">Invoices</a></li>
+        <li><a href="#contact" data-transition= "slidedown" data-rel="dialog" class="ui-btn ui-icon-contact ui-btn-icon-top">Contact Us</a></li>
+      </ul>
+	  </div>
+	  
+	  
+	<div  data-role="collapsible" class="ui-content" data-collapsed="false">
+	<h5>Our Services</h5>
+   <p>We are the most famous company throughout the GTA offering variety of services to our clients.
+	We deal in computer parts and accessories. We also have wide range of available products for the customers.
+	We are serving Canada from last 50 years.We also provide special discounts to our customers and are working
+	hard to provide customer satisfaction.Our Agents are on a mission to set up,protect,support and repair your computers,
+	home theatre, cell phones and more. We'll come to your rescue in-store,in-home or online.From setting up your new device
+	to making sure you have the best Internet security, we will handle it.That means you can focus on the fun parts of owning
+	a computer and laptop.We are always here to answer the call of duty from delivering and setting up your new PC.</p>
+	</div>
+<div data-role="main" class="ui-content">
+<center>
+
+    <h4>Best Deals</h4>
+    <ul data-role="listview" data-inset="true">
+      <li>
+        <img src="images/mac.jpg"><h5>Mackbook Pro</h5><h5>$1299.98</h5>
+      </li>
+      <li>
+        <img src="images/asus.jpg"><h5>Asus Rogue</h5><h5>$2108.50</h5>
+      </li>
+	  <li>
+        <img src="images/acer.jpg"><h5>Acer Predator</h5><h5>1999.99</h5>
+      </li>
+	   <li>
+        <img src="images/alien.jpg"><h5>Alienware</h5><h5>$2200.00</h5>
+      </li>
+	  <li>
+        <img src="images/msi.jpg"><h5>MSI GS72</h5><h5>$2352.48</h5>
+      </li>
+    </ul>
+</center>
+  </div>
+</section>
+ <!--This is the footer -->
+<footer data-role="footer">
+<h2>&copy;SellMore Company Ltd</h2>
+</footer>
+
+</div><!--This is the end of the homepage -->
+
+<!--This is the starting of the contact page -->
+<div data-role="page" id="contact" data-theme="a">
+<section class = "ui-content">
+<div>
+<header data-role ="header">
+<h2><u>Contact Us</u></h2>
+<header>
+</div><br>
+<center>
+<a href="mailto:sellmore@gmail.com" data-role = "button" data-rel="external">Press to email:- sellmore@gmail.com</a><br />
+<a href="tel:905-647-1234" data-role="button" rel="external">Press to call:- 905-647-1234</a></h4>
+<br>
+<a href="#home" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</section>
+
+</div><!--This is the end of the contact page !-->
+
+
+<!--This is the starting of the products page -->
+
+<div data-role = "page" id = "products" data-theme="a">
+ <header data-role="header">
+  <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bullets ui-btn-icon-left">
+  MENU</a>
+
+  <div data-role="popup" id="myPopup">
+      <ul data-role="listview" data-inset="true">
+        <li><a href="#home" data-transition="flip">Home</a></li>
+        <li><a href="#products" data-transition="flip">Products</a></li>
+		<li><a href="#customers" data-transition="flip">Customers</a></li>
+		<li><a href="#invoices" data-transition="flip">Invoices</a></li>
+		<li><a href="maps.html" rel = "external">Maps</a></li>
+		<li><a href="#contact" data-transition= "slidedown" data-rel="dialog">Contact Us</a></li>
+      </ul>
+    </div>
+		<h1>Products</h1>
+	</header>
+	<p id = "head">(Click Pic to Enlarge)</p>
+  <section class="ui-content">
+ <article id = "p1">
+ <ul id = "list" data-role="listview" data-inset="true" data-filter = "true">
+<li  data-icon="false"> 
+       <a href = "#enlarge" data-rel="dialog" ><img src="images/acer.jpg"></a><h5>1.Acer Predator 15 G9-591G</h5>
+			<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data0"></div>
+			<p>For more info <a href ="http://www.ultrabookreview.com/8343-acer-predator-laptops/" target = "_blank">Click here</a></p>
+			</div>
+</li>
+<li  data-icon="false">
+ <a href = "#enlarge1" data-rel="dialog" ><img src="images/mac.jpg"></a><h5>2.Mackbook Pro</h5>
+			<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data1" class = "ui-content"></div>
+			<p>For more info <a href ="http://www.apple.com/ca/macbook-pro/specs/" target = "_blank">Click here</a></p>
+			</div>
+</li  data-icon="false">
+
+<li  data-icon="false">
+<a href = "#enlarge2" data-rel="dialog" ><img src="images/alien.jpg"></a><h5>3.DELL Alienware</h5>
+<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data2" class = "ui-content"></div>
+			<p>For more info <a href ="http://www.laptopmag.com/reviews/laptops/alienware-17" target = "_blank">Click here</a></p>
+			</div>
+</li>
+
+<li  data-icon="false">
+<a href = "#enlarge3" data-rel="dialog" ><img src="images/asus.jpg"></a><h5>4.Asus ROG</h5>
+<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data3" class = "ui-content"></div>
+			<p>For more info <a href ="http://www.cnet.com/products/asus-rog-g750jz-xs72-17-3-core-i7-4700hq-32-gb-ram-512-gb-ssd-plus-1-tb-hdd/specs/" target = "_blank">Click here</a></p>
+			</div>
+</li>
+
+<li  data-icon="false">
+<a href = "#enlarge4" data-rel="dialog" ><img src="images/msi.jpg"></a><h5>5.MSI GS72</h5>
+<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data4" class = "ui-content"></div>
+			<p>For more info <a href ="http://www.eteknix.com/msi-gs72-6qe-stealth-pro-gaming-laptop-review/" target = "_blank">Click here</a></p>
+			</div>
+</li>
+
+<li  data-icon="false">
+<a href = "#enlarge5" data-rel="dialog" ><img src="images/dellx.jpg"></a><h5>6.DELL XPS 13</h5>
+<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data5" class = "ui-content"></div>
+			<p>For more info <a href ="http://www.laptopmag.com/reviews/laptops/dell-xps-13" target = "_blank">Click here</a></p>
+			</div>
+</li>
+
+<li  data-icon="false">
+<a href = "#enlarge6" data-rel="dialog" ><img src="images/think.jpg"></a><h5>7.Lenovo ThinkPad X1</h5>
+<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data6" class = "ui-content"></div>
+			<p>For more info <a href ="http://www.pcmag.com/review/345373/lenovo-thinkpad-x1-yoga" target = "_blank">Click here</a></p>
+			</div>
+</li>
+
+<li  data-icon="false">
+<a href = "#enlarge7" data-rel="dialog" ><img src="images/spectre.jpg"></a><h5>8.HP Spectre</h5>
+<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data7" class = "ui-content"></div>
+			<p>For more info <a href ="http://www.laptopmag.com/reviews/laptops/hp-spectre" target = "_blank">Click here</a></p>
+			</div>
+</li>
+
+<li  data-icon="false">
+<a href = "#enlarge8" data-rel="dialog" ><img src="images/yen.jpg"></a><h5>9.Asus ZenBook Pro</h5>
+<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data8" class = "ui-content"></div>
+			<p>For more info <a href ="http://www.laptopmag.com/reviews/laptops/asus-zenbook-pro-ux501-v" target = "_blank">Click here</a></p>
+			</div>
+</li>
+
+<li  data-icon="false">
+<a href = "#enlarge9" data-rel="dialog" ><img src="images/th.jpg"></a><h5>10.Lenovo ThinkPad 13</h5>
+<div data-role="collapsible">
+			<h6>Product Description</h6>
+			<div id = "data9" class = "ui-content"></div>
+			<p>For more info <a href ="http://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-13" target = "_blank">Click here</a></p>
+			</div>
+</li>
+
+</ul>
+ </article>
+ </section>
+
+
+</div><!--This is the end of the products page -->
+
+<!------------------------------------------Starting--------------------------------->
+<!-------- -->
+<div data-role = "page" id = "enlarge" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/acer.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+<!-------- -->
+<div data-role = "page" id = "enlarge1" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/mac.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+<!-------- -->
+<div data-role = "page" id = "enlarge2" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/alien.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+
+<!-------- -->
+<div data-role = "page" id = "enlarge3" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/asus.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+<!-------- -->
+<div data-role = "page" id = "enlarge4" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/msi.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+
+<!-------- -->
+<div data-role = "page" id = "enlarge5" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/dellx.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+<!-------- -->
+
+<!-------- -->
+<div data-role = "page" id = "enlarge6" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/think.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+<!-------- -->
+<div data-role = "page" id = "enlarge7" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/spectre.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+<!-------- -->
+<div data-role = "page" id = "enlarge8" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/yen.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+<!-------- -->
+<div data-role = "page" id = "enlarge9" data-theme = "a">
+<h5 class = "ui-content" >Enlarged Image</h5>
+<div id = "individual" style="width: 100%;">
+<img src="images/th.jpg"  style="width: 100%; height:50%;">
+</div>
+<a href="#products" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a>
+</div>
+
+<!------------------------------------------Ending--------------------------------->
+
+<!--This is the starting of the customer page -->
+<div data-role = "page" id ="customers" data-theme = "a">
+ <header data-role = "header">
+  <a href="#myPop" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bullets ui-btn-icon-left">
+  MENU</a>
+
+  <div data-role="popup" id="myPop">
+      <ul data-role="listview" data-inset="true">
+        <li><a href="#home" data-transition="flip">Home</a></li>
+        <li><a href="#products" data-transition="flip">Products</a></li>
+		<li><a href="#customers" data-transition="flip">Customers</a></li>
+		<li><a href="#invoices" data-transition="flip">Invoices</a></li>
+		<li><a href="maps.html" rel = "external">Maps</a></li>
+		<li><a href="#contact" data-transition= "slidedown" data-rel="dialog">Contact Us</a></li>
+      </ul>
+    </div>
+ <a href="maps.html" class="ui-btn-right ui-btn ui-icon-search ui-btn-icon-left" rel="external">Map Location</a>
+ <h1>Customers</h1>
+ </header>
+ <div data-role="main" class = "ui-content">
+  <ul id= "custnames" data-role="listview" data-inset="true" data-filter="true">
+ </ul>
+  </div>
+</div><!--This is end for the customer page -->
+
+<!------This is starting of the individual page ---->
+<div data-role = "page" id = "individual" data-theme= "a">
+ <header data-role = "header">
+ <a href="#customers" class="ui-btn-left ui-btn"
+ data-transition="flip" data-role="button" role="button">All Customers</a>
+ <h1>Customer Information</h1></header>
+<section id = "cust" class = "ui-content" data-role = "main">
+</section>
+
+
+<section  class="ui-grid-a">
+<div class="ui-block-a" ><a href = "#email"  class="ui-btn ui-icon-mail ui-btn-icon-top" data-rel="dialog" data-transition="pop" >Email Customer</a></div>
+ <div class="ui-block-b"><a href = "maps.html" rel = "external" class="ui-btn ui-icon-search ui-btn-icon-top">Map Location</a></div>
+</section>
+</div><!--This is end here-->
+
+<!--STARTING OF EMAIL -->
+<div data-role = "page" id = "email" data-theme= "a">
+<div>
+<header data-role ="header">
+<h2><u>Email</u></h2>
+<header>
+</div><br>
+
+<div style="padding:40px">
+Mail to: <input type="email" id="myEmail"><br>
+Subject: <input type="text" id="subject" size="44"><br>	
+Message:<br><textarea rows="10" cols="50" id="message"></textarea><br><br>
+<button id ="mail" class="ui-btn ui-icon-home ui-mini ui-btn-inline">Send Email</button>
+<p id="demo"></p><br>
+</div>
+
+<br>
+<a href="index.html#customers"  rel = "external" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to previous page</a></div>
+
+<!--This is starting of invoice page-->
+<div data-role = "page" id = "invoices">
+<div data-role="header">
+<a href="#myPopu" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bullets ui-btn-icon-left">
+  MENU</a>
+
+  <div data-role="popup" id="myPopu">
+      <ul data-role="listview" data-inset="true">
+        <li><a href="#home" data-transition="flip">Home</a></li>
+        <li><a href="#products" data-transition="flip">Products</a></li>
+		<li><a href="#customers" data-transition="flip">Customers</a></li>
+		<li><a href="#invoices" data-transition="flip">Invoices</a></li>
+		<li><a href="maps.html" rel = "external">Maps</a></li>
+		<li><a href="#contact" data-transition= "slidedown" data-rel="dialog">Contact Us</a></li>
+      </ul>
+    </div>
+<h1>Invoices</h1>
+</div>
+<ul id= "inv" data-role="listview" data-inset="true" data-filter="true">
+ </ul>
+</div><!--This is the end -->
+
+<!------This is starting of the individual invoice  page ---->
+<div data-role = "page" id = "invinfo" data-theme= "a">
+ <header data-role = "header">
+ <a href="#invoices" data-transition="flip">Invoices List</a>
+ <h1>Invoice Information</h1></header>
+<section id = "invo" class = "ui-content">
+</section>
+<div data-role = "collapsible">
+<h6>Products</h6>
+<div id = "cool" class = "ui-content"></div>
+</div>
+</div>
+ </body>
+</html>

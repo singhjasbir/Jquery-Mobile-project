@@ -1,0 +1,136 @@
+{  
+   "company":{  
+      "customer":[  
+         {  
+            "compId":501,
+            "compName":"APEX Computers",
+            "compAddr":"40 Hudson Drive , Brampton",
+            "compContact":"Canada",
+            "compPhone":"647-658-7894",
+            "compEmail":"apex@ymail.ca",
+            "invo":[  
+               {  
+                  "invoNum":120
+               }
+            ]
+         },
+         {  
+            "compId":502,
+            "compName":"Best Buy",
+            "compAddr":"6075 Mavis Rd, Mississauga",
+            "compContact":"Canada",
+            "compPhone":"(905) 361-8251",
+            "compEmail":"bestbuy@gmail.com",
+            "invo":[  
+               {  
+                  "invoNum":117
+               }
+            ]
+         },
+         {  
+            "compId":503,
+            "compName":"Future Shop",
+            "compAddr":"5875 Mavis Rd, Mississauga",
+            "compContact":"Canada",
+            "compPhone":"(905) 000-8251",
+            "compEmail":"futureca@gmail.com",
+            "invo":[  
+               {  
+                  "invoNum":703
+               }
+            ]
+         },
+         {  
+            "compId":504,
+            "compName":"Walmart",
+            "compAddr":"200 Courtneypark Dr W, Mississauga",
+            "compContact":"Canada",
+            "compPhone":"(905) 564-1484",
+            "compEmail":"walmart@gmail.com",
+            "invo":[  
+               {  
+                  "invoNum":704
+               }
+            ]
+         },
+         {  
+            "compId":505,
+            "compName":"Aulakh Computers",
+            "compAddr":"2345 Yonge Street, Toronto",
+            "compContact":"Canada",
+            "compPhone":"647-647-4973",
+            "compEmail":"singhj@gmail.com",
+            "invo":[  
+               {  
+                  "invoNum":705
+               }
+            ]
+         },
+         {  
+            "compId":506,
+            "compName":"Sarfraz Hardware Ltd.",
+            "compAddr":"6228 King Street West, Toronto",
+            "compContact":"U.S.A",
+            "compPhone":"587-987-7894",
+            "compEmail":"sarfraz@gmail.com",
+            "invo":[  
+               {  
+                  "invoNum":706
+               }
+            ]
+         },
+         {  
+            "compId":507,
+            "compName":"Reliance India Ltd.",
+            "compAddr":"2000 Queen Street East, Toronto",
+            "compContact":"India",
+            "compPhone":"+91-22-2278 5000",
+            "compEmail":" info@ril.com",
+            "invo":[  
+               {  
+                  "invoNum":707
+               }
+            ]
+         },
+         {  
+            "compId":508,
+            "compName":"Nehru Complex Inc.",
+            "compAddr":"1234 Bloor Street, Mississauga",
+            "compContact":"Mississauga",
+            "compPhone":"647-789-8521",
+            "compEmail":"nehru@ymail.com",
+            "invo":[  
+               {  
+                  "invoNum":708
+               }
+            ]
+         },
+         {  
+            "compId":509,
+            "compName":"Friends Computers",
+            "compAddr":"115 Ravenswood Drive, Brampton",
+            "compContact":"Brampton",
+            "compPhone":"647-789-4178",
+            "compEmail":"frj@hotmail.com",
+            "invo":[  
+               {  
+                  "invoNum":709
+               }
+            ]
+         },
+         {  
+            "compId":510,
+            "compName":"Stapes Canada",
+            "compAddr":"5900 Mavis Rd, Mississauga",
+            "compContact":"Mississauga",
+            "compPhone":"(905) 813-3134",
+            "compEmail":"staples@outlook.com",
+            "invo":[  
+               {  
+                  "invoNum":710
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,55 @@
+{  
+   "product":[  
+      {  
+         "prodId":"001",
+         "prodDesc":"This is acer predator Acer Predator 15 G9-591G having 15.6 inch of screen and it is having 3840 * 2160px resolution,Intel Haswell Core i7-6700HQ processor and 16 GB RAM.",
+         "prodAmt":"$1999.99"
+      },
+	  {
+	   "prodId":"002",
+        "prodDesc":"This is famous Mackbook pro having Intel Core i5 processor,4GB of 1600MHz DDR3 memory,500GB 5400-rpm hard drive, intel HD Graphics 4000 and 720p FaceTime HD camera.",
+       "prodAmt":"$1299.98"
+	  },
+	  {
+	   "prodId":"003",
+        "prodDesc":"This is DELL Alienware having 2.7-GHz Intel Core i7-6820HK,16GB memory and with 4k screen this is an ideal laptop for gaming and also for programming purposes.",
+       "prodAmt":"$2200"
+	  },
+	   {
+	   "prodId":"004",
+        "prodDesc":"This is ASUS rog having a big screen and GTX 980M graphics. This is best for professional use. This laptop is equipped with advanced video performance.",
+       "prodAmt":"$2108.50"
+	  },
+	   {
+	   "prodId":"005",
+        "prodDesc":"This is MSI at its best having a 17.3 inch screen and GTX 970M graphics.Ideal and best for gaming.",
+       "prodAmt":"$2352.48"
+	  },
+	  {
+	   "prodId":"006",
+        "prodDesc":"This is a great choice because this laptop is equipped with great touchpad and colourful display.This offers very good performance, hybrid graphics, and a luxurious design.",
+       "prodAmt":"$799.00"
+	  },
+	  {
+	   "prodId":"007",
+        "prodDesc":"Long battery life.Convertible design is lightweight, but durable. Comfortable keyboard. Built-in stylus.",
+       "prodAmt":"$1236.78"
+	  },
+	  {
+	   "prodId":"008",
+        "prodDesc":"Stylish,superthin design, Blazing performance; Great keyboard, Bright, colorful display. This lapto has a brilliant screen display.",
+       "prodAmt":"$1170.00"
+	  },
+	  {
+	   "prodId":"009",
+        "prodDesc":"Attractive all-metal chassis; Impressive battery life,Great value, Very good Nvidia graphics performance, Colorful 15.6-inch UHD touch screen, USB-C port with Thunderbolt 3.",
+       "prodAmt":"$1450.00"
+	  },
+	   {
+	   "prodId":"010",
+        "prodDesc":"All-time great keyboard; Long battery life; USB Type-C port; Durable chassis; Great value. Great HD screen in very afforadable price.Cheap and ideal deal for basic use.",
+       "prodAmt":"$499.99"
+	  }
+	  
+   ]
+}

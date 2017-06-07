@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/taddu.css" />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkPzlX1E8OW2YBesfJznphjDmKh9z9dEY&callback=initMap"
+  type="text/javascript"></script>
+	<script src="js/maps.js"></script>
+</head>
+
+<body>
+ <div data-role="header">
+ <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bullets ui-btn-icon-left">
+  MENU</a>
+  <div data-role="popup" id="myPopup">
+      <ul data-role="listview" data-inset="true">
+        <li><a href="index.html#home" data-transition="flip" rel = "external">Home</a></li>
+        <li><a href="index.html#products" data-transition="flip"  rel = "external">Products</a></li>
+		<li><a href="index.html#customers" data-transition="flip"  rel = "external">Customers</a></li>
+		<li><a href="index.html#invoices" data-transition="flip"  rel = "external">Invoices</a></li>
+      </ul>
+    </div>
+	<h1>Map Location</h1>
+</div>
+<p style = "text-align:center; font-size:0.7em;">(Click to see map below)</p>
+<div data-role="main" class="ui-content">
+<ul id="ulout"  data-role="listview" data-inset="true" data-filter="true"></ul>
+<div id="map-canvas" style="width:100%; height:20em; border:2px solid black;">
+</div>
+</div>
+
+
+</body>
+</html>
